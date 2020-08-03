@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot");
+    src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Vazir.woff") format("woff"),
+    url("../fonts/Vazir.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+div,span,a,h1,h2,h3,h4,h5,h6,p,label,select,input{
+    font-family: Vazir;
+}
+
+body{
+    direction: rtl;
+}
+.mr-auto, .mx-auto {
+    margin-right: 0!important;
+    margin-left: auto!important;
+}
+.bg-light {
+    background-color: #9a399a!important;
+}
+.navbar-light .navbar-nav .nav-link.disabled {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+@media (min-width: 1200px){
+    nav .container {
+        max-width: 1250px;
+    }
+}
+.jss44 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.jss78 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.jss45 {
+    margin: 0;
+    box-sizing: border-box;
+}
+.jss69 {
+    width: calc(100% + 32px);
+    margin: -16px;
+}
+.jss44 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.jss69 > .jss45 {
+    padding: 16px;
+}
+.jss76 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+}
+.jss1 {
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    font-size: 24px;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    user-select: none;
+    flex-shrink: 0;
+}
+.jss84 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+}
+.flickity-viewport{
+    height: 500px!important;
+}
+@media (min-width: 600px) {
+    .jss98 {
+        flex-grow: 0;
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .jss92 {
+        flex-grow: 0;
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+}
+@media (min-width: 960px) {
+    .jss106 {
+        flex-grow: 0;
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+}
+footer{
+    text-align: right;
+}
+
+
