@@ -39,7 +39,7 @@
                         بیمه وسایل نقلیه
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">بیمه شخص ثالث</a>
                         <a class="dropdown-item" href="#">Another action</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Something else here</a>
@@ -94,11 +94,13 @@
                 </li>
             </ul>
             <div class="form-inline my-2 my-lg-0">
-                <div><a id="login">ورود / ثبت نام</a></div>
+                <div><a data-toggle="modal" data-target="#modalLRFormMobile">ورود / ثبت نام</a></div>
             </div>
         </div>
     </div>
 </nav>
+
+
 
 <main>
     @yield('content')
@@ -129,17 +131,17 @@
                         <div class="jss44 jss69">
                             <div class="jss45 jss76">
                                 <div class="Certified__Img___3sP3y"><img id="apfunbqeoeukjxlzrgvj" alt="logo-samandehi"
-                                                                         src="/static/images/footer/samandehi.png"
+                                                                         src="{{asset('/static/images/footer/samandehi.png')}}"
                                                                          width="150" height="150"></div>
                             </div>
                             <div class="jss45 jss76">
                                 <div class="Certified__Img___3sP3y"><img id="hwlabrgwwmcsgwmdsgui" alt="enamad"
-                                                                         src="/static/images/footer/enamad.png"
+                                                                         src="{{asset('/static/images/footer/enamad.png')}}"
                                                                          width="125" height="136"></div>
                             </div>
                             <div class="jss45 jss76">
                                 <div class="Certified__Img___3sP3y"><img id="eanjoman"
-                                                                         src="/static/images/footer/anjoman.png"
+                                                                         src="{{asset('/static/images/footer/anjoman.png')}}"
                                                                          width="125" height="125" alt="anjoman logo">
                                 </div>
                             </div>
@@ -239,6 +241,92 @@
 </footer>
 <!-- Optional JavaScript -->
 <!-- JQuery -->
+
+<!-- Modal: Login / Register Form Demo -->
+<div class="modal fade" id="modalLRFormMobile" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog cascading-modal modal-sm" role="document">
+        <!-- Content -->
+        <div class="modal-content">
+
+            <!-- Modal cascading tabs -->
+            <div class="modal-c-tabs">
+
+
+
+                <!-- Tab panels -->
+                <div class="tab-content model-login">
+                    <!-- Panel 17 -->
+                    <div class="tab-pane tab-mobile fade in show active" id="panel17" role="tabpanel">
+
+                        <!-- header -->
+                        <div class="modal-header mb-1">
+                            <div class="Dialog__Title___2rQoI"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user" class="svg-inline--fa fa-user fa-w-14 fa-1x " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"></path></svg><p class="Dialog__Title__Text___3VFWW"> ورود / ثبت نام</p></div>
+                        </div>
+                        <p class="Label___3iX8H" style="margin: 15px 0 0;">برای <b>ورود</b> یا <b>ثبت‌نام</b> شماره تلفن همراه خود را وارد کنید</p>
+                        <!-- Body -->
+                        <div class="modal-body mb-1">
+                            <div class="md-form form-sm">
+                                <input name="mobile" type="number" id="form2" class="form-control form-control-sm">
+                                <label for="form2">شماره موبایل</label>
+                            </div>
+
+
+                            <div class="text-center mt-2">
+                                <button onclick="checkmobileforlogin(this)" style="width: 100%;padding: 8px;" class="btn btn-info">ادامه</button>
+                            </div>
+                        </div>
+                        <!-- Footer -->
+
+                    </div>
+                    <!-- Panel 7 -->
+
+                    <!-- Panel 18 -->
+                    <div class="tab-pane fade tab-register" id="panel18" role="tabpanel">
+
+                        <!-- Body -->
+                        <div class="modal-body">
+                            <div class="md-form form-sm">
+                                <i class="fas fa-envelope prefix"></i>
+                                <input type="text" id="form14" class="form-control form-control-sm">
+                                <label for="form14">Your email</label>
+                            </div>
+
+                            <div class="md-form form-sm">
+                                <i class="fas fa-lock prefix"></i>
+                                <input type="password" id="form5" class="form-control form-control-sm">
+                                <label for="form5">Your password</label>
+                            </div>
+
+                            <div class="md-form form-sm">
+                                <i class="fas fa-lock prefix"></i>
+                                <input type="password" id="form6" class="form-control form-control-sm">
+                                <label for="form6">Repeat password</label>
+                            </div>
+
+                            <div class="text-center form-sm mt-2">
+                                <button class="btn btn-info">Sign up <i class="fas fa-sign-in-alt ml-1"></i></button>
+                            </div>
+
+                        </div>
+                        <!-- Footer -->
+                        <div class="modal-footer">
+                            <div class="options text-right">
+                                <p class="pt-1">Already have an account? <a href="#" class="blue-text">Log In</a></p>
+                            </div>
+                            <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    <!-- Panel 8 -->
+                </div>
+
+            </div>
+        </div>
+        <!-- Content -->
+    </div>
+</div>
+<!-- Modal: Login / Register Form Demo -->
+
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <script src="{{asset('static/js/popper.min.js')}}"></script>
@@ -248,6 +336,24 @@
 <script>$(document).ready(function () {
         $('body').bootstrapMaterialDesign();
     });</script>
+
+<script>
+    function checkmobileforlogin(tag) {
+        var mobile=$(tag).parents('.modal-body').find('input[name=mobile]').val();
+        var invalid=0;
+        var regularMobile = /^0{1}9{1}[0-9]{9}$/i;
+        if (regularMobile.test(mobile) == false) {
+            invalid = 1;
+            $(tag).parents('.modal-body').find('input[name=mobile]').addClass('error-input')
+        } else {
+            $(tag).parents('.modal-body').find('input[name=mobile]').removeClass('error-input')
+            $('.tab-register').addClass(' in show active');
+            $('.tab-mobile').removeClass(' in show active');
+        }
+    }
+
+
+</script>
 @yield('script_link')
 @yield('script')
 </body>

@@ -3136,7 +3136,7 @@ h4 .P__Icon___Eyr_h img, li .P__Icon___Eyr_h img {
 }
 
 .Ongoing___iaF-U {
-    border-bottom: 3px solid #ffcc00;
+    border-bottom: 3px solid #9a399a;
     z-index: 3
 }
 
@@ -11966,7 +11966,7 @@ tr:nth-child(even) .Company__MoreInfo__Speed___3vzIR{
 .BlogPost__Head___1QKPv {
     height: 60px;
     padding: 0 20px;
-    background: #ffcc00;
+    background: #9a399a;
     color: white;
     display: flex;
     align-items: center;
@@ -12003,7 +12003,7 @@ tr:nth-child(even) .Company__MoreInfo__Speed___3vzIR{
 .Companies__Head___3Laqu {
     height: 60px;
     padding: 0 20px;
-    background: #ffcc00;
+    background: #9a399a;
     color: white;
     display: flex;
     align-items: center;
@@ -18200,13 +18200,13 @@ tr:nth-child(even) .Company__MoreInfo__Speed___3vzIR{
 
 @-webkit-keyframes locationColorFlash___3RE8x {
     0% {fill: #fff;}
-    50% {fill: #ffcc00;}
+    50% {fill: #9a399a;}
     100% {fill: #fff;}
 }
 
 @keyframes locationColorFlash___3RE8x {
     0% {fill: #fff;}
-    50% {fill: #ffcc00;}
+    50% {fill: #9a399a;}
     100% {fill: #fff;}
 }
 @-webkit-keyframes locationColorFlashHollow___1Wb_L {

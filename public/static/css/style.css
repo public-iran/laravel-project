@@ -106,4 +106,43 @@ footer{
     text-align: right;
 }
 
-
+.navbar.navbar-light .breadcrumb .nav-item .nav-link, .navbar.navbar-light .navbar-nav .nav-item .nav-link{
+    color: #fff;
+}
+.modal-content{
+    border-radius: 5px!important;
+    overflow: hidden;
+}
+.model-login .modal-header{
+    margin: 0!important;
+    margin-top: -27px!important;
+    box-shadow: none!important;
+    background: #9a399a;
+    border-radius: 0!important;
+    padding: 6px!important;
+}
+.model-login .modal-header .Dialog__Title___2rQoI{
+    display: flex;
+    width: 100%;
+}
+.model-login .modal-header .Dialog__Title__Text___3VFWW{
+    padding: 0;
+    margin: 0 8px;
+}
+.model-login .modal-header .Dialog__Title___2rQoI svg{
+    width: 14px;
+    color: #fff;
+}
+.btn-info {
+    color: #fff;
+    background-color: #9a399a !important;
+}
+@media (min-width: 576px){
+    .modal-sm {
+        max-width: 380px;
+    }
+}
+.error-input{
+    border-bottom: 1px solid #f90808!important;
+    box-shadow: 0 1px 0 0 #ff0808!important;
+}

@@ -33,31 +33,31 @@
                                                             <div class="Row___MiMPM">
                                                                 <div id="SaalesHomePage" class="InsurTypeBtn___1xBRT">
                                                                     <img id="SaalesHomePage"
-                                                                         src="/static/images/home/thirdparty.svg"
+                                                                         src="{{asset('/static/images/home/thirdparty.svg')}}"
                                                                          alt="بیمه شخص ثالث" height="54"
                                                                          style="height: 45px;"><span
                                                                         id="SaalesHomePage">شخص ثالث</span></div>
                                                                 <div id="BadaneHomePage" class="InsurTypeBtn___1xBRT">
                                                                     <img id="BadaneHomePage"
-                                                                         src="/static/images/home/carBody.svg"
+                                                                         src="{{asset('/static/images/home/carBody.svg')}}"
                                                                          alt="بیمه بدنه" height="54"
                                                                          style="height: 45px;"><span
                                                                         id="BadaneHomePage">بدنه</span></div>
                                                                 <div id="MotorHomePage" class="InsurTypeBtn___1xBRT">
                                                                     <img id="MotorHomePage"
-                                                                         src="/static/images/home/motorcycle_1.svg"
+                                                                         src="{{asset('/static/images/home/motorcycle_1.svg')}}"
                                                                          alt="بیمه موتور سیکلت" height="54"
                                                                          style="height: 42px;"><span id="MotorHomePage">موتورسیکلت</span>
                                                                 </div>
                                                                 <div id="AtashHomePage" class="InsurTypeBtn___1xBRT">
                                                                     <img id="AtashHomePage"
-                                                                         src="/static/images/home/fire_2.svg"
+                                                                         src="{{asset('/static/images/home/fire_2.svg')}}"
                                                                          alt="بیمه آتش سوزی" height="62"
                                                                          style="height: 55px;"><span id="AtashHomePage">آتش سوزی</span>
                                                                 </div>
                                                                 <div id="ZelzeleHomePage" class="InsurTypeBtn___1xBRT">
                                                                     <img id="ZelzeleHomePage"
-                                                                         src="/static/images/home/earthquake.svg"
+                                                                         src="{{asset('/static/images/home/earthquake.svg')}}"
                                                                          alt="بیمه زلزله" height="62"
                                                                          style="height: 55px;"><span
                                                                         id="ZelzeleHomePage">زلزله</span></div>
@@ -66,34 +66,34 @@
                                                                 <div id="MosaferatiHomePage"
                                                                      class="InsurTypeBtn___1xBRT"><img
                                                                         id="MosaferatiHomePage"
-                                                                        src="/static/images/home/travel.svg"
+                                                                        src="{{asset('/static/images/home/travel.svg')}}"
                                                                         alt="بیمه مسافرتی" height="57"
                                                                         style="height: 55px;"><span
                                                                         id="MosaferatiHomePage">مسافرتی</span></div>
                                                                 <div id="PezeshkanHomePage"
                                                                      class="InsurTypeBtn___1xBRT"><img
                                                                         id="PezeshkanHomePage"
-                                                                        src="/static/images/home/medical.svg"
+                                                                        src="{{asset('/static/images/home/medical.svg')}}"
                                                                         alt="بیمه مسئولیت پزشکان" height="63"
                                                                         style="height: 57px;"><span
                                                                         id="PezeshkanHomePage">مسئولیت پزشکان</span>
                                                                 </div>
                                                                 <div id="OmrHomePage" class="InsurTypeBtn___1xBRT"><img
                                                                         id="OmrHomePage"
-                                                                        src="/static/images/home/life.svg"
+                                                                        src="{{asset('/static/images/home/life.svg')}}"
                                                                         alt="بیمه عمر" height="63"
                                                                         style="height: 57px;"><span
                                                                         id="OmrHomePage">عمر</span></div>
                                                                 <div id="DarmanHomePage" class="InsurTypeBtn___1xBRT">
                                                                     <img id="DarmanHomePage"
-                                                                         src="/static/images/home/health-corona.svg"
+                                                                         src="{{asset('/static/images/home/health-corona.svg')}}"
                                                                          alt="بیمه تکمیلی" height="63"
                                                                          style="height: 57px;"><span
                                                                         id="DarmanHomePage">درمان و کرونا</span></div>
                                                                 <div id="CorporateResponsibilityHomePage"
                                                                      class="InsurTypeBtn___1xBRT"><img
                                                                         id="CorporateResponsibilityHomePage"
-                                                                        src="/static/images/home/corporate-responsibility.svg"
+                                                                        src="{{asset('/static/images/home/corporate-responsibility.svg')}}"
                                                                         alt="بیمه سازمانی" height="63"
                                                                         style="height: 57px;"><span
                                                                         id="CorporateResponsibilityHomePage"> سازمانی</span>
@@ -104,17 +104,17 @@
                                                             <div class="Row___MiMPM">
                                                                 <div id="SaalesHomePage" class="InsurTypeBtn___1xBRT">
                                                                     <img id="SaalesHomePage"
-                                                                         src="/static/images/home/thirdparty.svg"
+                                                                         src="{{asset('/static/images/home/thirdparty.svg')}}"
                                                                          alt="بیمه شخص ثالث" style="height: 40px;"><span
                                                                         id="SaalesHomePage">شخص ثالث</span></div>
                                                                 <div id="BadaneHomePage" class="InsurTypeBtn___1xBRT">
                                                                     <img id="BadaneHomePage"
-                                                                         src="/static/images/home/carBody.svg"
+                                                                         src="{{asset('/static/images/home/carBody.svg')}}"
                                                                          alt="بیمه بدنه" style="height: 40px;"><span
                                                                         id="BadaneHomePage">بدنه</span></div>
                                                                 <div id="MotorHomePage" class="InsurTypeBtn___1xBRT">
                                                                     <img id="MotorHomePage"
-                                                                         src="/static/images/home/motorcycle_1.svg"
+                                                                         src="{{asset('/static/images/home/motorcycle_1.svg')}}"
                                                                          alt="بیمه موتور سیکلت"
                                                                          style="height: 34px;"><span id="MotorHomePage">موتورسیکلت</span>
                                                                 </div>
@@ -122,18 +122,18 @@
                                                             <div class="Row___MiMPM">
                                                                 <div id="AtashHomePage" class="InsurTypeBtn___1xBRT">
                                                                     <img id="AtashHomePage"
-                                                                         src="/static/images/home/fire_2.svg"
+                                                                         src="{{asset('/static/images/home/fire_2.svg')}}"
                                                                          alt="بیمه آتش سوزی" style="height: 49px;"><span
                                                                         id="AtashHomePage">آتش سوزی</span></div>
                                                                 <div id="ZelzeleHomePage" class="InsurTypeBtn___1xBRT">
                                                                     <img id="ZelzeleHomePage"
-                                                                         src="/static/images/home/earthquake.svg"
+                                                                         src="{{asset('/static/images/home/earthquake.svg')}}"
                                                                          alt="بیمه زلزله" style="height: 49px;"><span
                                                                         id="ZelzeleHomePage">زلزله</span></div>
                                                                 <div id="MosaferatiHomePage"
                                                                      class="InsurTypeBtn___1xBRT"><img
                                                                         id="MosaferatiHomePage"
-                                                                        src="/static/images/home/travel.svg"
+                                                                        src="{{asset('/static/images/home/travel.svg')}}"
                                                                         alt="بیمه مسافرتی" style="height: 44px;"><span
                                                                         id="MosaferatiHomePage">مسافرتی</span></div>
                                                             </div>
@@ -141,17 +141,17 @@
                                                                 <div id="PezeshkanHomePage"
                                                                      class="InsurTypeBtn___1xBRT"><img
                                                                         id="PezeshkanHomePage"
-                                                                        src="/static/images/home/medical.svg"
+                                                                        src="{{asset('/static/images/home/medical.svg')}}"
                                                                         alt="بیمه مسئولیت پزشکان" style="height: 48px;"><span
                                                                         id="PezeshkanHomePage"> پزشکان</span></div>
                                                                 <div id="OmrHomePage" class="InsurTypeBtn___1xBRT"><img
                                                                         id="OmrHomePage"
-                                                                        src="/static/images/home/life.svg"
+                                                                        src="{{asset('/static/images/home/life.svg')}}"
                                                                         alt="بیمه عمر" style="height: 49px;"><span
                                                                         id="OmrHomePage">عمر</span></div>
                                                                 <div id="DarmanHomePage" class="InsurTypeBtn___1xBRT">
                                                                     <img id="DarmanHomePage"
-                                                                         src="/static/images/home/health-corona.svg"
+                                                                         src="{{asset('/static/images/home/health-corona.svg')}}"
                                                                          alt="بیمه تکمیلی" style="height: 49px;"><span
                                                                         id="DarmanHomePage">درمان و کرونا</span></div>
                                                             </div>
@@ -159,7 +159,7 @@
                                                                 <div id="CorporateResponsibilityHomePage"
                                                                      class="InsurTypeBtn___1xBRT"><img
                                                                         id="CorporateResponsibilityHomePage"
-                                                                        src="/static/images/home/corporate-responsibility.svg"
+                                                                        src="{{asset('/static/images/home/corporate-responsibility.svg')}}"
                                                                         alt="بیمه سازمانی" style="height: 49px;"><span
                                                                         id="CorporateResponsibilityHomePage"> سازمانی</span>
                                                                 </div>
@@ -2170,8 +2170,8 @@
             <div class="Wrapper___17Np2">
                 <div class="Reminder___2XGOY">
                     <div class="Reminder__Title___3Qmcs"><img class="PunchHole_1___3UkDf"
-                                                              src="/static/images/home/punchHoles.svg" alt=""><img
-                            class="PunchHole_4___1g-8l" src="/static/images/home/punchHoles.svg" alt="">
+                                                              src="{{asset('/static/images/home/punchHoles.svg')}}" alt=""><img
+                            class="PunchHole_4___1g-8l" src="{{asset('/static/images/home/punchHoles.svg')}}" alt="">
                         <div class="Reminder_Header___arWR5">یادآور تمدید یا اقساط بیمه</div>
                     </div>
                     <div class="Reminder__Content___1qRYd">
@@ -2254,7 +2254,7 @@
                         <div class="jss45 jss78 jss89">
                             <div class="Wrap___2VvQt">
                                 <div class="Circle___1erEk AnimateBorder___3f_Jh">
-                                    <div class="Feature___31sGk"><img src="/static/images/home/icon-simple.svg"
+                                    <div class="Feature___31sGk"><img src="{{asset('/static/images/home/icon-simple.svg')}}"
                                                                       alt="سادگی در خرید "></div>
                                 </div>
                             </div>
@@ -2266,19 +2266,19 @@
                         <div class="jss45 jss78 jss89">
                             <div class="Wrap___2VvQt">
                                 <div class="Circle___1erEk AnimateBorder___3f_Jh">
-                                    <div class="Feature___31sGk"><img src="/static/images/home/icon-speed.svg"
+                                    <div class="Feature___31sGk"><img src="{{asset('/static/images/home/icon-speed.svg')}}"
                                                                       alt="صدور فوری بیمه"></div>
                                 </div>
                             </div>
                             <div
                                 style="opacity: 1; transform: scale(1, 1) translateZ(0px); transform-origin: 0px 0px 0px; transition: opacity 177ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, transform 118ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;">
-                                سرعت در صدور
+                                سرعت در صدورddd
                             </div>
                         </div>
                         <div class="jss45 jss78 jss89">
                             <div class="Wrap___2VvQt">
                                 <div class="Circle___1erEk AnimateBorder___3f_Jh">
-                                    <div class="Feature___31sGk"><img src="/static/images/home/icon-support.svg"
+                                    <div class="Feature___31sGk"><img src="{{asset('/static/images/home/icon-support.svg')}}"
                                                                       alt="پشتیبانی خرید بیمه"></div>
                                 </div>
                             </div>
@@ -2290,7 +2290,7 @@
                         <div class="jss45 jss78 jss89">
                             <div class="Wrap___2VvQt">
                                 <div class="Circle___1erEk AnimateBorder___3f_Jh">
-                                    <div class="Feature___31sGk"><img src="/static/images/home/icon-ersal.svg"
+                                    <div class="Feature___31sGk"><img src="{{asset('/static/images/home/icon-ersal.svg')}}"
                                                                       alt="ارسال رایگان بیمه نامه"></div>
                                 </div>
                             </div>
@@ -2310,7 +2310,7 @@
                         <div class="jss45 jss81 jss89 jss103">
                             <div class="Card___1jErD">
                                 <div class="CardImage___14hBN"><img
-                                        src="/static/images/home/sliders/sales.jpg"
+                                        src="{{asset('/static/images/home/sliders/sales.jpg')}}"
                                         alt="بیمه شخص ثالث"></div>
                                 <div class="CardText___3-bOv"><h4>بیمه شخص ثالث</h4>بیمه شخص ثالث
                                     بیمه‌ای الزامی برای دارندگان وسایل نقلیه موتوری است. با دفتر بیمه،
@@ -2329,7 +2329,7 @@
                         <div class="jss45 jss81 jss89 jss103">
                             <div class="Card___1jErD">
                                 <div class="CardImage___14hBN"><img
-                                        src="/static/images/home/sliders/sales.jpg" alt="بیمه بدنه">
+                                        src="{{asset('/static/images/home/sliders/sales.jpg')}}" alt="بیمه بدنه">
                                 </div>
                                 <div class="CardText___3-bOv"><h4>بیمه بدنه</h4> بیمه بدنه بیمه‌ای
                                     اختیاری است که می‌تواند به عنوان مکمل بیمه شخص ثالث استفاده شود.
@@ -2349,7 +2349,7 @@
                         <div class="jss45 jss81 jss89 jss103">
                             <div class="Card___1jErD">
                                 <div class="CardImage___14hBN"><img
-                                        src="/static/images/home/sliders/omr.jpg" alt="بیمه عمر">
+                                        src="{{asset('/static/images/home/sliders/omr.jpg')}}" alt="بیمه عمر">
                                 </div>
                                 <div class="CardText___3-bOv"><h4>بیمه عمر</h4> بیمه عمر و
                                     سرمایه‌گذاری از شما و خانواده شما در طول مدت زندگی محافظت
@@ -2369,7 +2369,7 @@
                         <div class="jss45 jss81 jss89 jss103">
                             <div class="Card___1jErD">
                                 <div class="CardImage___14hBN"><img
-                                        src="/static/images/home/sliders/khane.jpg"
+                                        src="{{asset('/static/images/home/sliders/khane.jpg')}}"
                                         alt="بیمه آتش سوزی"></div>
                                 <div class="CardText___3-bOv"><h4>بیمه آتش سوزی</h4> بیمه آتش سوزی
                                     ساختمان بیمه‌ای اختیاری است که متأسفانه لزوم خرید آن، زمانی
@@ -2389,7 +2389,7 @@
                         <div class="jss45 jss81 jss89 jss103">
                             <div class="Card___1jErD">
                                 <div class="CardImage___14hBN"><img
-                                        src="/static/images/home/sliders/motor.jpg"
+                                        src="{{asset('/static/images/home/sliders/motor.jpg')}}"
                                         alt="بیمه موتورسیکلت"></div>
                                 <div class="CardText___3-bOv"><h4>بیمه موتورسیکلت</h4> بیمه
                                     موتورسیکلت در برابر خسارت‌های وارد شده به اشخاص ثالث از
@@ -2409,7 +2409,7 @@
                         <div class="jss45 jss81 jss89 jss103">
                             <div class="Card___1jErD">
                                 <div class="CardImage___14hBN"><img
-                                        src="/static/images/home/sliders/masoliat.jpg"
+                                        src="{{asset('/static/images/home/sliders/masoliat.jpg')}}"
                                         alt="بیمه مسئولیت پزشکان"></div>
                                 <div class="CardText___3-bOv"><h4>بیمه مسئولیت پزشکان</h4> بیمه
                                     مسئولیت پزشکان و پیراپزشکان مسئولیت بروز خسارت‌های غیرعمدی وارد
@@ -2430,7 +2430,7 @@
                         <div class="jss45 jss84 jss89 jss103">
                             <div class="Card___1jErD">
                                 <div class="CardImage___14hBN"><img
-                                        src="/static/images/home/sliders/khane.jpg"
+                                        src="{{asset('/static/images/home/sliders/khane.jpg')}}"
                                         alt="بیمه زلزله"></div>
                                 <div class="CardText___3-bOv"><h4>بیمه زلزله</h4> بیمه زلزله در واقع
                                     نوعی از بیمه آتش سوزی است که علاوه بر جبران خسارت در برابر آتش
@@ -2450,7 +2450,7 @@
                         <div class="jss45 jss81 jss89 jss103">
                             <div class="Card___1jErD">
                                 <div class="CardImage___14hBN"><img
-                                        src="/static/images/home/sliders/safr.jpg"
+                                        src="{{asset('/static/images/home/sliders/safr.jpg')}}"
                                         alt="بیمه مسافرتی"></div>
                                 <div class="CardText___3-bOv"><h4>بیمه مسافرتی خارج از کشور</h4>
                                     بیمه مسافرتی خارج از کشور از شما در برابر خطرات ممکن در طول
@@ -2476,83 +2476,83 @@
                 <div class="Mobile__Items___gJpNd">
                     <div class="Mobile__Item___3Opuk"
                          style="transform: translateY(80%) translateX(-130%) scale(0.7) rotate(0deg); opacity: 1;">
-                        <img height="96" width="96" src="/static/images/home/insurances/7.png"
+                        <img height="96" width="96" src="{{asset('/static/images/home/insurances/7.png')}}"
                              alt="شرکت بیمه ایران"></div>
                     <div class="Mobile__Item___3Opuk"
                          style="transform: translateY(80%) translateX(-210%) scale(0.7) rotate(0deg); opacity: 1;">
-                        <img height="96" width="96" src="/static/images/home/insurances/3.png" alt="شرکت بیمه آسیا">
+                        <img height="96" width="96" src="{{asset('/static/images/home/insurances/3.png')}}" alt="شرکت بیمه آسیا">
                     </div>
                     <div class="Mobile__Item___3Opuk"
                          style="transform: translateY(80%) translateX(-290%) scale(0.7) rotate(0deg); opacity: 1;">
-                        <img height="96" width="96" src="/static/images/home/insurances/15.png"
+                        <img height="96" width="96" src="{{asset('/static/images/home/insurances/15.png')}}"
                              alt="شرکت بیمه پارسیان"></div>
                     <div class="Mobile__Item___3Opuk"
                          style="transform: translateY(80%) translateX(-370%) scale(0.7) rotate(0deg); opacity: 1;">
-                        <img height="96" width="96" src="/static/images/home/insurances/5.png" alt="شرکت بیمه دانا">
+                        <img height="96" width="96" src="{{asset('/static/images/home/insurances/5.png')}}" alt="شرکت بیمه دانا">
                     </div>
                     <div class="Mobile__Item___3Opuk"
                          style="transform: translateY(80%) translateX(-450%) scale(0.7) rotate(0deg); opacity: 1;">
-                        <img height="96" width="96" src="/static/images/home/insurances/18.png"
+                        <img height="96" width="96" src="{{asset('/static/images/home/insurances/18.png')}}"
                              alt="شرکت بیمه رازی"></div>
                     <div class="Mobile__Item___3Opuk"
                          style="transform: translateY(80%) translateX(-530%) scale(0.7) rotate(0deg); opacity: 1;">
-                        <img height="96" width="96" src="/static/images/home/insurances/10.png"
+                        <img height="96" width="96" src="{{asset('/static/images/home/insurances/10.png')}}"
                              alt="شرکت بیمه ما (ملت ایران)"></div>
                     <div class="Mobile__Item___3Opuk"
                          style="transform: translateY(80%) translateX(-50%) scale(0.7) rotate(0deg); opacity: 1;">
-                        <img height="96" width="96" src="/static/images/home/insurances/13.png"
+                        <img height="96" width="96" src="{{asset('/static/images/home/insurances/13.png')}}"
                              alt="شرکت بیمه معلم"></div>
                     <div class="Mobile__Item___3Opuk"
                          style="transform: translateY(80%) translateX(-610%) scale(0.7) rotate(0deg); opacity: 1;">
-                        <img height="96" width="96" src="/static/images/home/insurances/14.png"
+                        <img height="96" width="96" src="{{asset('/static/images/home/insurances/14.png')}}"
                              alt="شرکت بیمه پاسارگاد"></div>
                     <div class="Mobile__Item___3Opuk"
                          style="transform: translateY(80%) translateX(-690%) scale(0.7) rotate(0deg); opacity: 1;">
-                        <img height="96" width="96" src="/static/images/home/insurances/1.png"
+                        <img height="96" width="96" src="{{asset('/static/images/home/insurances/1.png')}}"
                              alt="شرکت بیمه البرز"></div>
                     <div class="Mobile__Item___3Opuk"
                          style="transform: translateY(0%) translateX(-770%) scale(0.7) rotate(0deg); opacity: 1;">
-                        <img height="96" width="96" src="/static/images/home/insurances/6.png" alt="شرکت بیمه دی">
+                        <img height="96" width="96" src="{{asset('/static/images/home/insurances/6.png')}}" alt="شرکت بیمه دی">
                     </div>
                     <div class="Mobile__Item___3Opuk"
                          style="transform: translateY(80%) translateX(-770%) scale(0.7) rotate(0deg); opacity: 1;">
-                        <img height="96" width="96" src="/static/images/home/insurances/11.png" alt="شرکت بیمه ملت">
+                        <img height="96" width="96" src="{{asset('/static/images/home/insurances/11.png')}}" alt="شرکت بیمه ملت">
                     </div>
                     <div class="Mobile__Item___3Opuk"
                          style="transform: translateY(0%) translateX(-50%) scale(0.7) rotate(0deg); opacity: 1;">
-                        <img height="96" width="96" src="/static/images/home/insurances/8.png"
+                        <img height="96" width="96" src="{{asset('/static/images/home/insurances/8.png')}}"
                              alt="شرکت بیمه کارآفرین"></div>
                     <div class="Mobile__Item___3Opuk"
                          style="transform: translateY(0%) translateX(-130%) scale(0.7) rotate(0deg); opacity: 1;">
-                        <img height="96" width="96" src="/static/images/home/insurances/21.png"
+                        <img height="96" width="96" src="{{asset('/static/images/home/insurances/21.png')}}"
                              alt="شرکت بیمه نوین"></div>
                     <div class="Mobile__Item___3Opuk"
                          style="transform: translateY(0%) translateX(-210%) scale(0.7) rotate(0deg); opacity: 1;">
-                        <img height="96" width="96" src="/static/images/home/insurances/19.png"
+                        <img height="96" width="96" src="{{asset('/static/images/home/insurances/19.png')}}"
                              alt="شرکت بیمه سامان"></div>
                     <div class="Mobile__Item___3Opuk"
                          style="transform: translateY(0%) translateX(-290%) scale(0.7) rotate(0deg); opacity: 1;">
-                        <img height="96" width="96" src="/static/images/home/insurances/16.png"
+                        <img height="96" width="96" src="{{asset('/static/images/home/insurances/16.png')}}"
                              alt="شرکت بیمه تجارت نو"></div>
                     <div class="Mobile__Item___3Opuk"
                          style="transform: translateY(0%) translateX(-370%) scale(0.7) rotate(0deg); opacity: 1;">
-                        <img height="96" width="96" src="/static/images/home/insurances/9.png" alt="شرکت بیمه کوثر">
+                        <img height="96" width="96" src="{{asset('/static/images/home/insurances/9.png')}}" alt="شرکت بیمه کوثر">
                     </div>
                     <div class="Mobile__Item___3Opuk"
                          style="transform: translateY(0%) translateX(-450%) scale(0.7) rotate(0deg); opacity: 1;">
-                        <img height="96" width="96" src="/static/images/home/insurances/2.png"
+                        <img height="96" width="96" src="{{asset('/static/images/home/insurances/2.png')}}"
                              alt="شرکت بیمه آرمان"></div>
                     <div class="Mobile__Item___3Opuk"
                          style="transform: translateY(0%) translateX(-530%) scale(0.7) rotate(0deg); opacity: 1;">
-                        <img height="96" width="96" src="/static/images/home/insurances/4.png" alt="شرکت بیمه سینا">
+                        <img height="96" width="96" src="{{asset('/static/images/home/insurances/4.png')}}" alt="شرکت بیمه سینا">
                     </div>
                     <div class="Mobile__Item___3Opuk"
                          style="transform: translateY(0%) translateX(-610%) scale(0.7) rotate(0deg); opacity: 1;">
-                        <img height="96" width="96" src="/static/images/home/insurances/17.png"
+                        <img height="96" width="96" src="{{asset('/static/images/home/insurances/17.png')}}"
                              alt="شرکت بیمه تعاون"></div>
                     <div class="Mobile__Item___3Opuk"
                          style="transform: translateY(0%) translateX(-690%) scale(0.7) rotate(0deg); opacity: 1;">
-                        <img height="96" width="96" src="/static/images/home/insurances/22.png"
+                        <img height="96" width="96" src="{{asset('/static/images/home/insurances/22.png')}}"
                              alt="شرکت بیمه آسماری"></div>
                 </div>
                 <div class="jss44 jss67" style="position: relative; z-index: 2;">
@@ -2566,12 +2566,12 @@
                         <div class="Mobile__Wrapper___2BEz5">
                             <div class="Mobile__Screen___1wn8t">
                                 <div class="Mobile__Screen__InnerWrapper___oTsuX"
-                                     style="transform: translateY(-50.1%);"><img src="/static/images/home/2.png"
+                                     style="transform: translateY(-50.1%);"><img src="{{asset('/static/images/home/2.png')}}"
                                                                                  alt="مقایسه قیمت بیمه"><img
-                                        src="/static/images/home/1.jpg" alt="خرید اینترنتی بیمه از دفتر بیمه"
+                                        src="{{asset('/static/images/home/1.jpg')}}" alt="خرید اینترنتی بیمه از دفتر بیمه"
                                         style="position: relative; top: -4px;"></div>
                             </div>
-                            <img class="Mobile__PhoneImg___2gA2j" src="/static/images/home/mobilee.svg"
+                            <img class="Mobile__PhoneImg___2gA2j" src="{{asset('/static/images/home/mobilee.svg')}}"
                                  alt="اپلیکیشن خرید بیمه iOS"></div>
                     </div>
                     <div class="jss45 jss76">
@@ -2586,27 +2586,27 @@
                                                      style="padding-bottom:15px">دانلود اپلیکیشن دفتر بیمه</h6>
                 <div><a id="GooglePlayHomePage"
                         href="https://play.google.com/store/apps/details?id=com.nar.bimito&amp;hl=en"
-                        target="_blank"><img class="Download__Img___EH-f1" src="/static/images/home/google.png"
+                        target="_blank"><img class="Download__Img___EH-f1" src="{{asset('/static/images/home/google.png')}}"
                                              alt="دانلود اپلیکیشن دفتر بیمه از گوگل پلی"></a><a id="BazarHomePage"
                                                                                              href="http://cafebazaar.ir/app/com.nar.bimito/?l=fa"
                                                                                              target="_blank"><img
-                            class="Download__Img___EH-f1" src="/static/images/home/bazar.png"
+                            class="Download__Img___EH-f1" src="{{asset('/static/images/home/bazar.png')}}"
                             alt="دانلود اپلیکیشن دفتر بیمه از کافه بازار"></a><a id="MayketHomePage"
                                                                               href="https://www.myket.ir/app/com.nar.bimito"
                                                                               target="_blank"><img
-                            class="Download__Img___EH-f1" src="/static/images/home/mayket.png"
+                            class="Download__Img___EH-f1" src="{{asset('/static/images/home/mayket.png')}}"
                             alt="دانلود اپلیکیشن دفتر بیمه از مایکت"></a><a id="IranAppsHomePage"
                                                                          href="http://iranapps.com/app/com.nar.bimito"
                                                                          rel="nofollow" target="_blank"><img
-                            class="Download__Img___EH-f1" src="/static/images/home/iranapps2.png"
+                            class="Download__Img___EH-f1" src="{{asset('/static/images/home/iranapps2.png')}}"
                             alt="دانلود اپلیکیشن دفتر بیمه از ایران اپس"></a><a id="CharKhooneHomePage"
                                                                              href="https://www.charkhoneh.com/content/930534870"
                                                                              rel="nofollow" target="_blank"><img
-                            class="Download__Img___EH-f1" src="/static/images/home/charkhone.png"
+                            class="Download__Img___EH-f1" src="{{asset('/static/images/home/charkhone.png')}}"
                             alt="دانلود اپلیکیشن دفتر بیمه از چارخونه"></a><a id="ios"
                                                                            href="https://www.bimito.com/ios"
                                                                            rel="nofollow" target="_blank"><img
-                            class="Download__Img___EH-f1" src="/static/images/home/ios.png"
+                            class="Download__Img___EH-f1" src="{{asset('/static/images/home/ios.png')}}"
                             alt="نسخه ios دفتر بیمه"></a></div>
             </div>
             <div class="Wrapper___3AUQ_">
