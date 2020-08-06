@@ -16,10 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('front.index');
 });
+
 Route::get('/third-party-insurance', 'FrontController@third_party_insurance')->name('third-party-insurance');
 
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/test', 'testview@index');
 
 
 
